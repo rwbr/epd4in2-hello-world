@@ -1,0 +1,25 @@
+{
+  "name": "pi-dashboard",
+  "version": "0.0.1",
+  "description": "ePaper Dashboard on Raspberry Pi",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/rw-node/pi-dashboard.git"
+  },
+  "author": "Ralf Weinbrecher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rw-node/pi-dashboard/issues"
+  },
+  "homepage": "https://gitlab.com/rw-node/pi-dashboard#README",
+  "dependencies": {
+    "epd4in2": "^0.1.0",
+    "epd7x5": "^1.1.5"
+  },
+  "devDependencies": {}
+}

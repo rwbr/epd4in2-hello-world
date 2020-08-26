@@ -1,0 +1,57 @@
+{
+    "": "Screen is divided into a grid of 20 x 32 pixels horizontaly and 12 x 32 pixels vertically",
+    "viewspaces": [
+        {
+            "topic": "Wetter",
+            "model": "",
+            "inverse": false,
+            "dimension": {
+                "width": 8,
+                "height": 4
+            },
+            "position": {
+                "pos_x": 0,
+                "pos_y": 0
+            }
+        },
+        {
+            "topic": "Anrufe",
+            "model": "",
+            "inverse": true,
+            "dimension": {
+                "width": 6,
+                "height": 8
+            },
+            "position": {
+                "pos_x": 8,
+                "pos_y": 0
+            }
+        },
+        {
+            "topic": "Verkehr",
+            "model": "",
+            "inverse": false,
+            "dimension": {
+                "width": 6,
+                "height": 6
+            },
+            "position": {
+                "pos_x": 14,
+                "pos_y": 0
+            }
+        },
+        {
+            "topic": "Nachrichten",
+            "model": "",
+            "inverse": false,
+            "dimension": {
+                "width": 5,
+                "height": 2
+            },
+            "position": {
+                "pos_x": 8,
+                "pos_y": 8
+            }
+        }
+    ]
+}
